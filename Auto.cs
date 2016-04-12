@@ -24,7 +24,7 @@ namespace Clase9EjercicioNueve
 
         public static bool operator !=(Auto Auto1, Auto Auto2)
         {
-            return !(Auto1._patente == Auto2._patente);
+            return !(Auto1 == Auto2);
         }
     }
 }
